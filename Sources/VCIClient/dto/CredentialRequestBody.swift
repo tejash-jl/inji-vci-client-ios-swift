@@ -21,7 +21,7 @@ struct CredentialDefinition: Codable {
         case type
     }
 
-    init(context: [String]? = ["https://www.w3.org/2018/credentials/v2"], type: [String]) {
+    init(context: [String]? = ["https://www.w3.org/ns/credentials/v2"], type: [String]) {
         self.context = context
         self.type = type
     }
